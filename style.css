@@ -5,16 +5,21 @@ body {
     box-sizing: border-box;
 }
 
-.header{
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.titulo{
     display: grid;
     place-items: center;
     position: relative;
-    justify-content: center;
     width: 400px;
     height: 200px;
     background: rgb(117, 226, 230);
     border-radius: 15px;
-    margin: 50px 0 30px 430px;
     cursor: pointer;
 }
 
@@ -52,7 +57,7 @@ h1 {
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-
+    text-align: center;
 }
 
 .conteiner {
